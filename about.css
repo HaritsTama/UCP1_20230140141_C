@@ -1,0 +1,82 @@
+body {
+  font-family: "Agdasima", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  background-color: #eef;
+  margin: 0;
+  padding: 0;
+}
+
+#bg-video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  z-index: -1;
+}
+
+header {
+  font-family: "Press Start 2P", system-ui;
+  background-color: #00587e;
+  color: white;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+main section p {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+ol {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  list-style-position: outside;
+  padding-left: 40px;
+}
+
+ol li {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+table {
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 18px;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 10px 20px;
+}
+
+th {
+  background-color: rgba(0, 88, 126, 0.8);
+}

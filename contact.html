@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>ABEON - CONTACT</title>
+  <link rel="stylesheet" href="contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Inline&family=Gasoek+One&family=Inconsolata:wght@200..900&family=Limelight&family=Noto+Sans+Mandaic&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Inline&family=Gasoek+One&family=Inconsolata:wght@200..900&family=Limelight&family=Noto+Sans+Mandaic&family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <script>
+    function showAlert() {
+      alert("Pesan Anda terkirim!");
+    }
+  </script>
+</head>
+
+<body>
+
+  <video autoplay muted loop playsinline id="bg-video">
+        <source src="content/pixelbg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
+  
+  <header>
+    <h1>CONTACT US!</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="features.html">FEATURES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-container">
+      <h2>Form Pendaftaran</h2>
+      <form onsubmit="showAlert(); return false;">
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="minat">Minat Belajar:</label><br>
+        <input type="text" id="minat" name="minat" required><br><br>
+
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>

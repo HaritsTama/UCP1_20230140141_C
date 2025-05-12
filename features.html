@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <title>ABEON - FEATURES</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Inline&family=Gasoek+One&family=Inconsolata:wght@200..900&family=Limelight&family=Noto+Sans+Mandaic&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bungee+Inline&family=Gasoek+One&family=Inconsolata:wght@200..900&family=Limelight&family=Noto+Sans+Mandaic&family=Press+Start+2P&family=Turret+Road:wght@200;300;400;500;700;800&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: "Agdasima", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      color: white;
+      background-color: #eef;
+      margin: 0;
+      padding: 0;
+    }
+
+    #bg-video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      transform: translate(-50%, -50%);
+      object-fit: cover;
+      z-index: -1;
+    }
+
+    header {
+      font-family: "Press Start 2P", system-ui;
+      background-color: #00587e;
+      color: white;
+      padding: 10px;
+    }
+
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin-right: 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .gallery div {
+      text-align: center;
+    }
+
+    .gallery img {
+      object-fit: cover;
+    }
+
+    main section p {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+
+    #s-video {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <video autoplay muted loop playsinline id="bg-video">
+        <source src="content/pixelbg.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+  </video>
+  
+  <header>
+    <h1>FEATURES</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="about.html">ABOUT</a></li>
+        <li><a href="features.html">FEATURES</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="gallery">
+      <div>
+        <img src="content/lerannan.jpg" alt="Fitur 1" width="600">
+        <p>Belajar Interaktif</p>
+      </div>
+      <div>
+        <img src="content/interaktif.PNG" alt="Fitur 2" width="600">
+        <p>Quiz dan Tes</p>
+      </div>
+      <div>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/IFayQioG71A?si=BFqnVrKUOZoBWn70" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+        gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </video>
+        <p>Video Pembelajaran</p>
+      </div>
+    </section>
+    <section>
+
+    </section>
+  </main>
+</body>
+</html>
